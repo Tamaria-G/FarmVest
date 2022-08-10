@@ -1,0 +1,313 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: lato;
+    src: url(../fonts/Lato/Lato-Light.ttf);
+}
+@font-face {
+    font-family: spartan;
+    src: url(../fonts/League_Spartan/LeagueSpartan-VariableFont_wght.ttf);
+}
+
+
+/* background */
+
+
+body{
+    background-color: #ffffff;
+    width: 1920px;
+}
+
+.rkali1{
+    position: absolute;
+    width: 586px;
+    height: 586px;
+    left: -116px;
+    top: -262px;
+    border: 1px solid #008000;
+    border-radius: 100%;
+}
+
+.rkali2{
+    position: absolute;
+    width: 586px;
+    height: 586px;
+    left: -172px;
+    top: -206px;
+    border: 1px solid #008000;
+    border-radius: 100%;
+}
+.icons .fa-star{
+    font-size: 40px;
+    position: absolute;
+    left: 388px;
+    top: 390px;
+    color: rgba(38, 50, 56, 0.4);
+}
+.icons .fa-sack-dollar{
+    font-size: 46px;
+    position: absolute;
+    right: 574px;
+    top: 146px;
+    color: rgba(38, 50, 56, 0.4);
+}
+.icons .fa-dollar-sign{
+    position: absolute;
+    font-size: 26px;
+    left: 160px;
+    top: 696px;
+    color: rgba(38, 50, 56, 0.4); 
+}
+.icons .fa-naira-sign{
+    position: absolute;
+    right: 160px;
+    top: 386px;
+    font-size: 16px;
+    color: rgba(38, 50, 56, 0.4);
+}
+.icons .circle-full{
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    left: 1476px;
+    top: 430px;
+    background-color: rgba(38, 50, 56, 0.4);
+    border-radius: 100%;
+}
+.icons .circle{
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    left: 553px;
+    top: 767px; 
+    border: 1px solid #26323866;
+    border-radius: 100%;
+}
+.icons .fa-regular{
+    position: absolute;
+    left: 1471px;
+    top: 776px;
+    font-size: 40px;
+    color: rgba(38, 50, 56, 0.4);
+
+}
+
+                      /* header */
+
+.h1{
+    font-family: lato;
+    position: absolute;
+    top: 70px;
+    left: 150px;
+}
+
+nav{
+    width: 400px;
+    margin: 70px auto;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav li a{
+    color: #263238;
+    font-size: 18px;
+    font-family: lato;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.buttons{
+    width: 274px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: absolute;
+    top: 60px;
+    right: 150px;
+}
+
+.sign-in, .get-started{
+    width: 142px;
+    height: 64px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    border: 1px solid #263238;
+     
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #263238;
+}
+
+.sign-in:hover, .get-started:hover{
+    color: #ffffff;
+    background-color: #008000;
+    border: none;
+}
+
+                       /* main */
+
+
+.head{
+    width: 924px;
+    margin: 252px auto;
+    margin-bottom: 70px;
+    
+}
+.head h2{
+    color: #263238;
+    font-size: 70px;
+    font-family: spartan;
+    line-height: 78px;
+    font-style: normal;
+    text-align: center;
+    font-weight: 700;
+}      
+.head h2 .green{
+    color: #008000;
+    display: inline;
+}        
+
+.head-text{
+    width: 726px;
+    color: #263238;
+    font-family: spartan;
+    margin: auto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 180%;
+    text-align: center;
+}
+
+
+
+                     /* იწყება სტატიები */
+
+
+
+.statiebi{
+    width: 1420px;
+    
+    margin: 200px auto;
+}
+
+.statia1{
+    display: flex;
+}
+
+.statia1-satauri{
+    width: 574px;
+    padding: 4px;
+    /* background-color: #8fee8f; */
+
+    font-family: spartan;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 72px;
+    color: #263238;
+    margin-bottom: 32px;
+}
+.statia1-satauri .green{
+    color: #008000;
+    display: inline;
+}
+.text-lorem{
+    width: 574px;
+    font-family: spartan;
+    font-size: 18px;
+    line-height: 32px;
+    font-style: normal;
+    margin-bottom: 48px;
+}
+
+.mini-statiebi{
+    width: 490px;
+    /* background-color: #0fec0f; */
+}
+
+.mini-statiebi1{
+    display: flex;
+    margin-bottom: 48px;
+    
+}
+
+.mini-statiebi1 h4 a{
+    font-family: spartan;
+    font-size: 20px;
+    color: #263238;
+    font-weight: 700;
+}
+
+.mini-statiebi1-p{
+    font-family: spartan;
+    font-size: 18px;
+    line-height: 180%;
+    font-weight: 400;
+    margin-top: 16px;
+    color: #263238;
+}
+
+.statia1-icon{
+    width: 110px;
+    margin-right: 32px;
+    border-radius: 50%;
+    background-color: rgba(0, 128, 0, 0.1);
+    padding-top: 44px;
+    padding-left: 44px;
+}
+
+.statia1-icon .icon-icon {
+   color: #008000;
+   width: 60px;
+   height: 48px;
+}
+
+.statia1-icon .fa-user{
+    width: 100%;
+    height: 100%;
+}
+
+
+.statia1-img {
+    background-color: rgba(0, 128, 0, 0.05);
+    width: 750px;
+    border-radius: 20px;
+    position: relative;
+}
+
+
+ 
+.statia1-rkali1{
+    position: absolute;
+    top: -34px;
+    left: 418px;
+    width: 586px;
+    height: 586px;
+    border: 1px solid #008000;
+    border-radius: 100%;
+}
+.statia1-rkali2{
+    position: absolute;
+    top: -122px;
+    left: 420px;
+    width: 586px;
+    height: 586px;
+    border: 1px solid #008000;
+    border-radius: 100%;
+    
+}
+.statia1-img .statia1-img-img{
+    width: ;
+}
